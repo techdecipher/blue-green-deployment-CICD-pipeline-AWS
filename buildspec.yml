@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Install phase started"
+
+  build:
+    commands:
+      - echo "Build phase started"
+      - ls -la
+      - test -f index.html
+      - test -f appspec.yml
+
+artifacts:
+  files:
+    - index.html
+    - appspec.yml
+    - scripts/**/*
