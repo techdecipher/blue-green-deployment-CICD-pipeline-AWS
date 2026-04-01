@@ -2,4 +2,4 @@
 set -e
 
 echo "ValidateService started"
-curl -f http://localhost/index.html | grep "Application Version 1"
+curl -f http://localhost/index.html | grep "AWS Blue-Green Deployment Demo"
