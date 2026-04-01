@@ -2,4 +2,4 @@
 set -e
 
 echo "AfterInstall started"
-chmod -R 755 /var/www/html
+chmod -R 755 /usr/share/nginx/html
