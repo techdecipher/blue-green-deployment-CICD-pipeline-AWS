@@ -2,5 +2,5 @@
 set -e
 
 echo "BeforeInstall started"
-rm -rf /var/www/html/*
-mkdir -p /var/www/html
+rm -rf /usr/share/nginx/html/*
+mkdir -p /usr/share/nginx/html
